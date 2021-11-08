@@ -12,5 +12,5 @@ The analysis of the dynamic interaction data deduced from MD simulations can be 
 
 ## Requirements
 
-- For using **interaction_analysis.ipynb**, you have to install [Jupyter Notebook](https://jupyter.org/install)
+- For using **interaction_analysis.ipynb**, you have to install [Anaconda Navigator](https://docs.anaconda.com/anaconda/install/)
 - To visualize the coordinate file (**frames.pdb**), you should have installed a molecular visualization tool such as [Pymol](https://pymol.org/2/) on your computer. 
