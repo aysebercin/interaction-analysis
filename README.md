@@ -1,18 +1,16 @@
 # interaction-analysis
 
-There are many biomolecules for the continuity of essential processes in living systems. There are various interactions between biomolecules for the continuity of these activities. In time, these interactions can be disrupted and re-formed. Molecular dynamics (MD) simulations are one of the most commonly used methods to study the dynamic movements and changing interactions of biomolecules against time.
+Understanding biomolecular interactions at the atomistic detail is integral to dissecting any cellular system. In the cell, the biomolecular interactions are dynamic, where they are formed and lost while carrying out their functions. For understanding such dynamic processes, molecular dynamics (MD) simulations are one of the most commonly used methods to trace the dynamic interaction profiles over time. 
 
-Dynamic information from MD simulations informs the behavior of biomolecules over time. Various methods are available to analyze this information.
+The analysis of the dynamic interaction data deduced from MD simulations can be carried out by various methods. Here, we used the “interfacea” Python package to evaluate the intermolecular h-bond, hydrophobic, and ionic interactions (for more information: https://github.com/JoaoRodrigues/interfacea). In this tutorial, we will guide you in processing the interfacea output files to study the interaction dyanmics of a methylatransferase system.
 
-Here, we used the “interfacea” Python package to evaluate dynamic information from MD simulations in terms of intermolecular interactions (for more information: https://github.com/JoaoRodrigues/interfacea). Basically this package calculates the interactions between atoms and classifies them as h-bond, hydrophobic interactions and ionic interactions.
+## interaction-analysis project content
 
-## interaction-analysis content
-
-- **input_files:** Contains raw output files created by the interfacea Python package.
-- **frames.pdb:** It is a serial coordinate file containing the frames of the MD simulated complex with output files in the input_files.
-- **interaction_analysis.ipynb:** iPython notebook to be used to analyze raw output files in input_files.
+- **frames.pdb:** a coordinate file containing the frames deduced from the MD simulated protein-DNA complex (written in each 0.5 ns for 5 ns long).
+- **input_files:** Contains raw interactions files created by the interfacea Python package (run on frames.pdb)
+- **interaction_analysis.ipynb:** iPython notebook to be used to analyze raw interfacea interactions files, located under input_files.
 
 ## Requirements
 
 - For using **interaction_analysis.ipynb**, you have to install [Jupyter Notebook](https://jupyter.org/install)
-- For visualize the serial coordinate file (**frames.pdb**), you should have any visualization tool such as [Pymol](https://pymol.org/2/) on your computer. 
+- To visualize the coordinate file (**frames.pdb**), you should have installed a molecular visualization tool such as [Pymol](https://pymol.org/2/) on your computer. 
