@@ -11,3 +11,8 @@ Here, we used the “interfacea” Python package to evaluate dynamic informatio
 - **input_files:** Contains raw output files created by the interfacea Python package.
 - **frames.pdb:** It is a serial coordinate file containing the frames of the MD simulated complex with output files in the input_files.
 - **interaction_analysis.ipynb:** iPython notebook to be used to analyze raw output files in input_files.
+
+## Requirements
+
+- For using **interaction_analysis.ipynb**, you have to install [Jupyter Notebook](https://jupyter.org/install)
+- For visualize the serial coordinate files, you should have any visualization tool such as [Pymol] (https://pymol.org/2/) on your computer. 
