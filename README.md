@@ -15,4 +15,4 @@ Here, we used the “interfacea” Python package to evaluate dynamic informatio
 ## Requirements
 
 - For using **interaction_analysis.ipynb**, you have to install [Jupyter Notebook](https://jupyter.org/install)
-- For visualize the serial coordinate files, you should have any visualization tool such as [Pymol] (https://pymol.org/2/) on your computer. 
+- For visualize the serial coordinate file (**frames.pdb**), you should have any visualization tool such as [Pymol](https://pymol.org/2/) on your computer. 
