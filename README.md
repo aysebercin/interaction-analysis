@@ -8,6 +8,6 @@ Here, we used the “interfacea” Python package to evaluate dynamic informatio
 
 ## interaction-analysis content
 
-*- input_files:* Contains raw output files created by the interfacea Python package.
-*- frames.pdb:* It is a serial coordinate file containing the frames of the MD simulated complex with output files in the input_files.
-*- interaction_analysis.ipynb:* iPython notebook to be used to analyze raw output files in input_files.
+**+ input_files:** Contains raw output files created by the interfacea Python package.
+**+ frames.pdb:** It is a serial coordinate file containing the frames of the MD simulated complex with output files in the input_files.
+**+ interaction_analysis.ipynb:** iPython notebook to be used to analyze raw output files in input_files.
