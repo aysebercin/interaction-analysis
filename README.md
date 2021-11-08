@@ -4,10 +4,10 @@ There are many biomolecules for the continuity of essential processes in living 
 
 Dynamic information from MD simulations informs the behavior of biomolecules over time. Various methods are available to analyze this information.
 
-Here, we used the “interfacea” Python package to evaluate dynamic information from MD simulations in terms of intermolecular interactions (for more information: https://github.com/JoaoRodrigues/interfacea). Basically this package; calculates the interactions between atoms and classifies them as h-bond, hydrophobic interactions and ionic interactions.
+Here, we used the “interfacea” Python package to evaluate dynamic information from MD simulations in terms of intermolecular interactions (for more information: https://github.com/JoaoRodrigues/interfacea). Basically this package calculates the interactions between atoms and classifies them as h-bond, hydrophobic interactions and ionic interactions.
 
 ## interaction-analysis content
 
-- input_files: Contains raw output files created by the interfacea Python package.
-- frames.pdb: It is a serial coordinate file containing the frames of the MD simulated complex with output files in the input_files.
-- interaction_analysis.ipynb: iPython notebook to be used to analyze raw output files in input_files.
+- **input_files:** Contains raw output files created by the interfacea Python package.
+- **frames.pdb:** It is a serial coordinate file containing the frames of the MD simulated complex with output files in the input_files.
+- **interaction_analysis.ipynb:** iPython notebook to be used to analyze raw output files in input_files.
